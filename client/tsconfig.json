@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "../server/src/server.ts", "../server/src/types"],
+  "include": ["src", "../express-server/src/server.ts", "../express-server/src/types"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
